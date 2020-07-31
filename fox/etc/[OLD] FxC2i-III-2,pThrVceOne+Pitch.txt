@@ -1,0 +1,51 @@
+  r4 \sustainOn 
+  \tuplet 3/2  {c'8[ c'8 c'8] }
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]} | % 51
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]} | % 52
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]} | % 53
+  s1*2 | % 54
+  s1*2 | % 55 
+  s1*2 | % 56
+  \tuplet 3/2  {c'8 \sustainOff [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]} | % 57
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]} | % 58
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2  {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2 {c'8 [ c'8 c'8 ]}
+  \tuplet 3/2 {c'8 [ c'8 c'8 ]} | % 59
+  r2 r8 \stemUp es8~ es4 | % 60
+  es4 r8 es8~ es2 | % 61
+  r8 es8~ es2 r8 es8~ | % 62
+  es4 r8 \stemDown fis8_~ fis2_~ | % 63
+  fis1_~ fis1_~ | % 64
+  fis1_~ fis1 | % 65
+  s1*2 | % 66
+  s1*2 | % 67
+  s1*2 | % 68
+  s1*2 | % 69
+  s1*2 | % 70
+  s1*2 | \barNumberCheck #71
+  s1*2 | % 72
+  s1*2 | % 73
+  s1*2 | % 74
+  \stemUp d8 r8 r4 r8 d8 r4 | % 75
+  r4 d8 r8 r2 | % 76
+  c8 r8 r4 r8 c8 r4 | % 77
+  r4 b,8 r8 r4 r8 b,8 | % 78
+  r2 b,8 r8 r4 | % 79
+  r8 es8 r2 es8 r8 | % 80
+  r4 r8 e,8 r8 r8 r4 | \barNumberCheck #81
+  e,8 r8 r4 e,8-. r4. \bar "|."
+}

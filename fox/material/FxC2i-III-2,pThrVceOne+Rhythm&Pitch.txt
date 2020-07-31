@@ -1,0 +1,89 @@
+s1*2 | % 51
+  \clef "treble"
+  \stemUp \tupletUp
+  \tuplet 3/2  {e'''8 [ e'''8 e'''8 ]}
+  s4
+  \tuplet 3/2  {e'''8 [ e'''8 e'''8 ]}
+  s4  
+  \tuplet 3/2  {e'''8 [ e'''8 e'''8 ]}
+  s4
+  \tuplet 3/2  {e'''8 [ e'''8 e'''8 ]}
+  s4 | % 52
+  \change Staff = "2"
+  \stemUp \tupletUp
+  s1*2 | % 53
+  s1*2 | % 54
+  s1*2 | % 55 
+  s1*2 | % 56
+  s2
+  \tuplet 3/2  {e'8 [ a'8 a'8 ]}
+  \tuplet 3/2  {e'8 [ a'8 a'8 ]}
+  s2*2 | % 57
+  \tuplet 3/2  {e'8 [ e'8 e'8 ]}
+  \tuplet 3/2  {e'8 [ e'8 e'8 ]}
+  s2*2  
+  \tuplet 3/2  {e'8 [ e'8 e'8 ]}
+  \tuplet 3/2  {e'8 [ e'8 e'8 ]} | % 58
+  \tuplet 3/2  {e'8 [ e'8 e'8 ]}
+  \tuplet 3/2  {e'8 [ e'8 e'8 ]}
+  \tuplet 3/2  {e'8 [ e'8 e'8 ]}
+  \tuplet 3/2  {e'8 [ e'8 e'8 ]}
+  \tuplet 3/2  {e'8 [ e'8 e'8 ]}
+  \tuplet 3/2  {e'8 [ e'8 e'8 ]}
+  \tuplet 3/2 {e'8 [ e'8 e'8 ]}
+  \tuplet 3/2 {e'8 [ e'8 e'8 ]} | % 59
+  r4 r16 g16~ g8
+  r4 r16 g16~ g8
+  r4 r16 g16~ g8
+  r4 r16 g16~ g8 | % 60
+  g8 r16 g16~ g4
+  g8 r16 g16~ g4
+  g8 r16 g16~ g4
+  g8 r16 g16~ g4 | % 61
+  r16 g16~ g4 r16 g16
+  r16 g16~ g4 r16 g16
+  r16 g16~ g4 r16 g16
+  r16 g16~ g4 r16 g16~ | % 62
+  g8 r16 as16_~ as4
+  g8 r16 as16_~ as4
+  g8 r16 as16_~ as4
+  g8 r16 as16_~ as4 | % 63
+  s1*2 | % 64
+  s1*2 | % 65
+  s1*2 | % 66
+  s1*2 | % 67
+  s1*2 | % 68
+  s1*2 | % 69
+  s1*2 | % 70
+  s1*2 | \barNumberCheck #71
+  s1*2 | % 72
+  s1*2 | % 73
+  s1*2 | % 74
+  s1*2 | % 75
+  s2
+  s2
+  s2
+  s2 | % 76
+  \stemNeutral
+  f'16 [ d'16 ] r8 r16 f'16 r8
+  f'16 [ d'16 ] r8 r16 f'16 r8
+  f'16 [ d'16 ] r8 r16 f'16 r8
+  f'16 [ d'16 ] r8 r16 f'16 r8 | % 77
+  r8 e16 r16 s8 r16 e16
+  r8 e16 r16 s8 r16 e16
+  r8 e16 r16 s8 r16 e16
+  r8 e16 r16 s8 r16 e16 | % 78
+  r8. d'16 [ e16 ] r16 r8
+  r8. d'16 [ e16 ] r16 r8
+  r8. d'16 [ e16 ] r16 r8
+  r8. d'16 [ e16 ] r16 r8 | % 79
+  \stemDown
+  s16 s16 s8 s8 s16 s16
+  s16 s16 s8 s8 s16 s16
+  s16 s16 s8 s8 s16 s16
+  s16 s16 s8 s8 s16 s16 | % 80
+  s1*2 | \barNumberCheck #81
+  s1*20 | % 91
+  s1*20 
+  \bar"|."
+}

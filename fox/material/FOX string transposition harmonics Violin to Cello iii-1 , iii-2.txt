@@ -1,0 +1,141 @@
+% A 1 / 5
+  \override TextSpanner.bound-details.left.text = "Flautando"
+  g'8\harmonic^"C6"^\markup{\bold\large{ Spiccato Sempre }} [ d''8\harmonic^"G6" a''8\harmonic^"D6" e'''8\harmonic^"A6" ] 
+  a''8\harmonic\startTextSpan [ d''8\harmonic g'8\harmonic d''8 \harmonic ]
+  a''8\harmonic [ e'''8\harmonic a''8\harmonic d''\harmonic ]
+  g'8\harmonic [ d''8\harmonic a''8\harmonic e'''8\harmonic ]
+  a''8\harmonic [ d''8\harmonic g'8\harmonic d''8 \harmonic ] \glissandoSkipOn
+  
+  %2/5
+  a''8\harmonic [ e'''8\harmonic a''8\harmonic d''\harmonic ]
+  g'8\harmonic [ d''8\harmonic a''8\harmonic e'''8\harmonic ]
+  a''8\harmonic [ d''8\harmonic g'8\harmonic d''8 \harmonic ]
+  a''8\harmonic [ e'''8\harmonic a''8\harmonic d''\harmonic ]
+  g'8\harmonic [ d''8\harmonic a''8\harmonic e'''8\harmonic ]
+ 
+  %3/5
+  a''8\harmonic [ d''8\harmonic g'8\harmonic d''8 \harmonic ]
+  a''8\harmonic [ e'''8\harmonic a''8\harmonic d''\harmonic ]
+  g'8\harmonic [ d''8\harmonic a''8\harmonic e'''8\harmonic ]
+  a''8\harmonic [ d''8\harmonic g'8\harmonic d''8 \harmonic ]
+  a''8\harmonic [ e'''8\harmonic a''8\harmonic d''\harmonic ]
+  
+
+ %4/5
+  \glissandoSkipOff
+  beseh'8\harmonic^"C7"\stopTextSpan [ feh''8\harmonic^"G7" ceh'''8\harmonic^"D7" geh'''8\harmonic^"A7" ] 
+  \override TextSpanner.bound-details.left.text = "Col Legno"
+  ceh'''8\harmonic\startTextSpan [ feh''8\harmonic beseh'8\harmonic feh''8 \harmonic ]
+  ceh'''8\harmonic [ geh'''8\harmonic feh''8\harmonic beseh'\harmonic ]
+  feh''8\harmonic [ ceh'''8\harmonic geh'''8\harmonic ceh'''8\harmonic ]
+  feh''8\harmonic [ beseh'8\harmonic feh''8 \harmonic ceh'''8\harmonic ]
+  
+  %5/5
+  geh'''8\harmonic ceh'''8\harmonic feh''\harmonic beseh'8\harmonic ]
+  feh''8\harmonic [ ceh'''8\harmonic geh'''8\harmonic ceh'''8\harmonic ]
+  feh''8\harmonic [ beseh'8\harmonic ceh'''8\harmonic geh'''8 \harmonic ]
+  ceh'''8\harmonic [ feh''8\harmonic beseh'8\harmonic feh''\harmonic ]
+  ceh'''8\harmonic [ geh'''8\harmonic ceh'''8\harmonic feh''8\harmonic ]\stopTextSpan | \barNumberCheck #75
+  r2*5
+  r2*5
+  r2*5
+  r2*5
+  r2*5 | \barNumberCheck #100
+  
+  % B 1 / 5
+  \ottava #1
+  \override TextSpanner.bound-details.left.text = "Flautando"
+  c''8\harmonic _"C8" \startTextSpan [ g''8\harmonic _"G8" d'''8\harmonic _"D8" a'''8\harmonic _"A8" ] 
+  d'''8\harmonic [ g''8\harmonic c''8\harmonic g''8 \harmonic ]
+  d'''8\harmonic [ a'''8\harmonic d'''8\harmonic g''\harmonic ]
+  c''8\harmonic [ g''8\harmonic d'''8\harmonic a'''8\harmonic ]
+  d''8\harmonic [ g''8\harmonic c''8\harmonic g''8 \harmonic ] \stopTextSpan \glissandoSkipOn
+  
+  % 2 / 5
+  \override TextSpanner.bound-details.left.text = "Col Legno"
+  d'''16\harmonic\startTextSpan [ a'''16\harmonic d'''16\harmonic g''16\harmonic ]
+  c''16\harmonic [ g''16\harmonic d'''16\harmonic a'''16\harmonic ]
+  d'''16\harmonic [ g''16\harmonic c''16\harmonic g''16\harmonic ]
+  d'''16\harmonic [ a'''16\harmonic d'''16\harmonic g''16\harmonic ]
+  c''16\harmonic [ g''16\harmonic d'''16\harmonic a'''16\harmonic ]
+  d'''16\harmonic [ g''16\harmonic c''16\harmonic g''16\harmonic ]
+  d'''16\harmonic [ a'''16\harmonic d'''16\harmonic g''16\harmonic ]
+  c''16\harmonic [ g''16\harmonic d'''16\harmonic a'''16\harmonic ]
+  d'''16\harmonic [ g''16\harmonic c''16\harmonic g''16\harmonic ]
+  d'''16\harmonic [ a'''16\harmonic d'''16\harmonic g''16\harmonic ]
+
+  % 3 / 5
+  c''16\harmonic [ g''16\harmonic d'''16\harmonic a'''16\harmonic ]
+  d'''16\harmonic [ g''16\harmonic c''16\harmonic g''16\harmonic ]
+  d'''16\harmonic [ a'''16\harmonic d'''16\harmonic g''16\harmonic ]
+  c''16\harmonic [ g''16\harmonic d'''16\harmonic a'''16\harmonic ]
+  d'''16\harmonic [ g''16\harmonic c''16\harmonic g''16\harmonic ]
+  d'''16\harmonic [ a'''16\harmonic d'''16\harmonic g''16\harmonic ]
+  c''16\harmonic [ g''16\harmonic d'''16\harmonic a'''16\harmonic ]
+  d'''16\harmonic [ g''16\harmonic c''16\harmonic g''16\harmonic ]
+  d'''16\harmonic [ a'''16\harmonic d'''16\harmonic g''16\harmonic
+  c''16\harmonic [ g''16\harmonic d'''16\harmonic a'''16\harmonic ]
+  
+  % 4 / 5
+  \glissandoSkipOff
+  d''8\harmonic _"C9"\stopTextSpan [ a''8\harmonic _"G9" e'''8\harmonic _"D9" b'''8\harmonic _"A9" ] 
+  \override TextSpanner.bound-details.left.text = "Sul Pont."
+  e'''8\harmonic\startTextSpan [ a''8\harmonic d''8\harmonic a''8 \harmonic ]
+  e'''8\harmonic [ b'''8\harmonic e'''8\harmonic a''\harmonic ]
+  d''8\harmonic [ a''8\harmonic e'''8\harmonic b'''8\harmonic ]
+  e'''8\harmonic [ a''8\harmonic d''8\harmonic a''8 \harmonic ]
+  
+  % 5 / 5
+  e'''8\harmonic [ b'''8\harmonic e'''8\harmonic a''\harmonic ]
+  d''8\harmonic [ a''8\harmonic e'''8\harmonic b'''8\harmonic ]\stopTextSpan
+  \override TextSpanner.bound-details.left.text = "Ord."
+  e'''8\harmonic\startTextSpan [ a''8\harmonic d''8\harmonic a''8 \harmonic ]
+  e'''8\harmonic [ b'''8\harmonic e'''8\harmonic a''\harmonic ]
+  d''8\harmonic [ a''8\harmonic e'''8\harmonic b'''8\harmonic ]\stopTextSpan 
+  \ottava #0 | \barNumberCheck #125
+  
+  r2*5
+  r2*5
+  r2*5
+  r2*5
+  r2*5 | \barNumberCheck #150
+  
+  % C 1 / 5
+  \override TextSpanner.bound-details.left.text = "Ord."
+  g'8\harmonic^"C6"\startTextSpan [ d''8\harmonic^"G6" a''8\harmonic^"D6" e'''8\harmonic^"A6" ] 
+  a''8\harmonic [ d''8\harmonic g'8\harmonic d''8 \harmonic ]
+  a''8\harmonic [ e'''8\harmonic a''8\harmonic d''\harmonic ]
+  g'8\harmonic [ d''8\harmonic a''8\harmonic e'''8\harmonic ]
+  a''8\harmonic [ d''8\harmonic g'8\harmonic d''8 \harmonic ] \glissandoSkipOn
+  
+  %2/5
+  a''8\harmonic [ e'''8\harmonic a''8\harmonic d''\harmonic ]
+  g'8\harmonic [ d''8\harmonic a''8\harmonic e'''8\harmonic ]
+  a''8\harmonic [ d''8\harmonic g'8\harmonic d''8 \harmonic ]
+  a''8\harmonic [ e'''8\harmonic a''8\harmonic d''\harmonic ]
+  g'8\harmonic [ d''8\harmonic a''8\harmonic e'''8\harmonic ]\stopTextSpan
+ 
+  %3/5
+  \override TextSpanner.bound-details.left.text = "Flautando"
+  a''8\harmonic\startTextSpan [ d''8\harmonic g'8\harmonic d''8 \harmonic ]
+  a''8\harmonic [ e'''8\harmonic a''8\harmonic d''\harmonic ]
+  g'8\harmonic [ d''8\harmonic a''8\harmonic e'''8\harmonic ]
+  a''8\harmonic [ d''8\harmonic g'8\harmonic d''8 \harmonic ]
+  a''8\harmonic [ e'''8\harmonic a''8\harmonic d''\harmonic ]
+  
+  %4/5
+  \glissandoSkipOff
+  beseh'8\harmonic _"C7" [ feh''8\harmonic _"G7" ceh'''8\harmonic _"D7" geh'''8\harmonic _"A7" ] 
+  ceh'''8\harmonic [ a''8\harmonic beseh'8\harmonic feh''8 \harmonic ]
+  ceh'''8\harmonic [ geh'''8\harmonic feh''8\harmonic beseh'\harmonic ]
+  feh''8\harmonic [ ceh'''8\harmonic geh'''8\harmonic ceh'''8\harmonic ]
+  feh''8\harmonic [ beseh'8\harmonic feh''8 \harmonic ceh'''8\harmonic ]
+  
+  %5/5
+  geh'''8\harmonic [ feh''8\harmonic beseh'\harmonic feh''\harmonic ]
+  ceh'''8\harmonic [ geh'''8\harmonic ceh'''8\harmonic feh''8\harmonic ]\stopTextSpan
+  \override TextSpanner.bound-details.left.text = "Sul Pont."
+  beseh'8\harmonic\startTextSpan [ feh''8\harmonic ceh'''8 \harmonic geh'''8\harmonic ]
+  ceh'''8\harmonic [ feh''8\harmonic beseh'8\harmonic feh''\harmonic ]\stopTextSpan
+  r2\fermata \barNumberCheck #175
+  \bar "|."

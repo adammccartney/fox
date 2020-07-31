@@ -1,0 +1,33 @@
+
+  \time 3/4 \clef "treble"
+  \stemNeutral 
+  cis''16[ cis''16 cis''16 cis''16] r16 g''16 r8 r16 gis''16 r8 gis'8 | % 2
+  g'32 [ g''32 gis''16 <b b'>8 ] r8 r16 gis16 r8 cis''16[ cis''16 cis''16 cis''16] | % 3
+  r16 gis''16 r8 s2 | % 4
+  s2.*5 | %9 
+  s2.*6 | \barNumberCheck #14 
+  s2.*3 | % 16
+  \change Staff = "2"
+  \clef "bass"
+  \stemUp
+  s2.*4 | % 19
+  s2.*4 | % 22
+  \stemNeutral
+  r16 fis'''16 r8 r8 fis'''16 r16 r8 <fis'' fis'''>16 r16   | \barNumberCheck #23
+  r32 <fis'' fis'''>16. r16 <fis'' fis'''>16 r8 <fis'' fis'''>16 r16 r32 <fis'' fis'''>16. r16 <fis'' fis'''>16 | % 24
+  r16 fis'''16 r8 r8 fis'''16 r16 r4 | % 25
+  s2.*10 | \barNumberCheck #34
+  s2.*6 | % 39  
+  s2.*10 | % 48
+  s2.*8 | \barNumberCheck #60
+  r2.*16 | % 75
+  c'''16 [ c'''16 c'''16 b'''16 ] c'''16 [ c'''16 c'''16 c'''16 ] c'''16 [ c'''16 c'''16 c'''16 ] | % 76
+  c'''16 [ c'''16 c'''16 b'''16 ] c'''16 [ c'''16 c'''16 c'''16 ] c'''16 [ c'''16 c'''16 c'''16 ] | % 77
+  c'''16 [ c'''16 c'''16 b'''16 ] c'''16 [ c'''16 c'''16 c'''16 ] c'''16 [ c'''16 c'''16 c'''16 ] | \barNumberCheck #78
+  c'''16 [ c'''16 c'''16 b'''16 ] c'''16 [ <c'' c'''>16 c'''16 c'''16 ] c'''16 [ c'''16 c'''16 c'''16  ] | % 79
+  c'''16 [ c'''16 c'''16 b'''16 ] c'''16 [ <c'' c'''>16 c'''16 c'''16 ] c'''16 [ c'''16 c'''16 c'''16 ] 
+  c'''16 [ <c'' c'''>16 c'''16 c'''16 ] r2 | % 80
+  s2.*12 | % 91
+  r2.
+  \bar "|."
+}

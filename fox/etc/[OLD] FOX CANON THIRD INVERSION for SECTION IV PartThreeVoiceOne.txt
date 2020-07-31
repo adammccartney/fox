@@ -1,0 +1,34 @@
+ <fis,, fis,>4 r4 r8 es8 r4 |
+  r8 es8 r2 r8 es8 |
+  r2 r8 es8 r4| % 4
+  r4 r8 es8 r2 |
+  r8 es8 r2 r8 es8 |
+  <bes,, bes,>4 r2 r8 cis8 | % 7
+  r2 r8 cis8~ cis4~ | % 8
+  cis4 r8 cis8~ cis2 | % 9
+  r8 cis8~ cis2 r8 cis8 | % 10
+  r1 | % 11
+  <g,, g,>1 | 
+  \barNumberCheck #12
+  s1 | % 13
+  s1 |
+  s1 | % 15
+  s1 | % 16
+  <bes,, bes,>4 r4 r8 d,8~ d,4~ | % 17 
+  d,4 r8 d,8~ d,2 |
+  r8 d8~ d2 r8 d8~  | % 19
+  d2 r8 d8~ d4~ |
+  d4 r8 d8~ d2 | 
+  <d,, d,>8 \pp g,,8 r2 r8 g,,8 | % 22
+  r2 r8 g,,8 r4 |  
+  r4 r8 g,,8 r2 |
+  r8 \sustainOn g,,8 r2 r8 g,,8 | % 25
+  r2 r8 g,,8 r4 |
+  <b,, b,>4 r8 f,8 r2 | % 27
+  r8 f,8 r2 r8 f,8 |
+  r2 r8 f,8 r4 |
+  r4 r8 f,8 r2 | % 30 
+  r8 f,8 r2 r8 f,8 |
+  <es,, es,>4 \sustainOff r4 r8 c,8 r4 | % 32
+  r4 r8 c,8 c,8-. r4. \bar "|."
+}
